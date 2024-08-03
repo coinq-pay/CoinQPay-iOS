@@ -10,7 +10,6 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-* Platform: **iOS**
 * Language: **Objective-C**
 * Operating environment: **iphone**
 
@@ -21,6 +20,17 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'CoinQPay-iOS'
+```
+#### Example
+```
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+
+target 'TestDemo' do
+  pod 'CoinQPay-iOS'
+end
+
 ```
 
 ## Build developer environment
