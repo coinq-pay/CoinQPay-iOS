@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		076C8B71F3F8303C5DECDE63 /* Pods_CoinQPay_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinQPay_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C1CC66DA9FCD6022C6B718 /* Pods-CoinQPay-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinQPay-iOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		335BE2F03BDD864576AD7BC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		335BE2F03BDD864576AD7BC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CoinQPay-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoinQPay-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,10 +61,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A03D074C21FE74FB33812DC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A03D074C21FE74FB33812DC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BDD032689CF19C9DFF3B16D9 /* Pods-CoinQPay-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinQPay-iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CoinQPay-iOS_Tests/Pods-CoinQPay-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3BDF8B3188E2EC89411E672 /* Pods-CoinQPay-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinQPay-iOS_Example.release.xcconfig"; path = "Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E516B17F5A63E79DE592EA75 /* CoinQPay-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "CoinQPay-iOS.podspec"; path = "../CoinQPay-iOS.podspec"; sourceTree = "<group>"; };
+		E516B17F5A63E79DE592EA75 /* CoinQPay-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "CoinQPay-iOS.podspec"; path = "../CoinQPay-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3490DF69972E220450E3E96 /* Pods-CoinQPay-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinQPay-iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-CoinQPay-iOS_Tests/Pods-CoinQPay-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F484645537A4870EEF2C1C52 /* Pods_CoinQPay_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinQPay_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				BDD032689CF19C9DFF3B16D9 /* Pods-CoinQPay-iOS_Tests.debug.xcconfig */,
 				F3490DF69972E220450E3E96 /* Pods-CoinQPay-iOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				61542EE730CC87B73E54EE1A /* [CP] Embed Pods Frameworks */,
+				AD14AA1959F71867D45CF23A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +248,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "x-oauth-basic";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TG882XY52P;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,11 +307,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CoinQPay-iOS/CoinQPay_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoinQPay_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,6 +340,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD14AA1959F71867D45CF23A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example-resources.sh",
+				"${PODS_ROOT}/../../CoinQPay-iOS/CoinQPay.framework/CoinQPayResource.bundle",
+				"${PODS_ROOT}/../../CoinQPay-iOS/TPSDK.framework/TPSDKBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CoinQPayResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TPSDKBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B872DCCB0EE656BBB0DD3504 /* [CP] Check Pods Manifest.lock */ = {
@@ -494,12 +521,18 @@
 			baseConfigurationReference = 26C1CC66DA9FCD6022C6B718 /* Pods-CoinQPay-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TG882XY52P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoinQPay-iOS/CoinQPay-iOS-Prefix.pch";
 				INFOPLIST_FILE = "CoinQPay-iOS/CoinQPay-iOS-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.starnestapp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = star_nest_app_dev_620;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +543,18 @@
 			baseConfigurationReference = E3BDF8B3188E2EC89411E672 /* Pods-CoinQPay-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TG882XY52P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoinQPay-iOS/CoinQPay-iOS-Prefix.pch";
 				INFOPLIST_FILE = "CoinQPay-iOS/CoinQPay-iOS-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.starnestapp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = star_nest_app_dev_620;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

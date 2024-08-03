@@ -1,0 +1,6 @@
+framework module CoinQPay {
+  umbrella header "CoinQPay.h"
+  export *
+
+  module * { export * }
+}

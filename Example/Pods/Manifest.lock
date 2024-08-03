@@ -1,0 +1,31 @@
+PODS:
+  - CoinQPay-iOS (0.1.0):
+    - Masonry (= 1.1.0)
+    - OpenSSL-Universal (= 1.0.2.13)
+    - Protobuf (= 3.13.0)
+  - Masonry (1.1.0)
+  - OpenSSL-Universal (1.0.2.13)
+  - Protobuf (3.13.0)
+
+DEPENDENCIES:
+  - CoinQPay-iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - OpenSSL-Universal
+    - Protobuf
+
+EXTERNAL SOURCES:
+  CoinQPay-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoinQPay-iOS: f1577c34cc691003237964eb5a05fe820115929e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  OpenSSL-Universal: 401888162f11c33ebbd46f782d9229da35c61327
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+
+PODFILE CHECKSUM: efbec5a261b42ec37dd9883b6d0615bb8d284415
+
+COCOAPODS: 1.15.2

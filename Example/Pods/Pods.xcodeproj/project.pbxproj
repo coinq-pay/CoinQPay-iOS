@@ -1,0 +1,1750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		22EBBE5791B90D61ACB967B2E5FD6113 /* CoinQPay-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6061DBCC55C2B9A7B9F93A9A64BD0C52 /* Build configuration list for PBXAggregateTarget "CoinQPay-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4A603CD8B20CC9460B619B0B32475048 /* PBXTargetDependency */,
+				7EF0C694541F6D40AFF4709BE4269B5C /* PBXTargetDependency */,
+				87C9158DE43148E5B9E0872F0B62C5EA /* PBXTargetDependency */,
+			);
+			name = "CoinQPay-iOS";
+		};
+		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9135BB41C778D853E3C92D25C47A8D8E /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		032BDF2D9087823D6B9DAB683141F146 /* Api.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 70347C601C9C8B33FF52059EA1B968D3 /* Api.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F8F956C2BF8815DA46E0170D13F3AC /* Timestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2887696D26F93E8565F0DBE69121C9 /* Timestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B55A360FDED2679E4F2BF91E626C06C /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8347AC69BE041CA97F706B57D7570A13 /* GPBDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0DCAE146706B9343AD54B1C00013827C /* GPBWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D26C33E290904AAEB15DD531AF2EEAB /* GPBWireFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA7EFD9D58BACE86DFAFDC6A43AB8F1 /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F18FCBE6B73B846040B746380BF9996 /* GPBCodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15378503C5F4C4CF5AFC32D1A7CE72DE /* GPBDuration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C70ED652AC604EDC3F9AF3054F8FB5 /* GPBDuration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		158907B7295DCCEF31B1CD744072EABD /* GPBExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA3D4044542222007BDCBCB757E6B19 /* GPBExtensionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15ECD706A819047D094B30809675C16A /* GPBUnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D0ABB5E199D0A5655ECE2395C775F8CE /* GPBUnknownFieldSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17437A26A41AC6D42D9231F7F4E695D3 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C1D8BA5F0922ACF77A5B396262EE32 /* View+MASAdditions.m */; };
+		19BEA4A347FA071BA2D2C2E626E200B7 /* Duration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6899ADED977CE9AF63AE0FA2EB293522 /* Duration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E3E8D28AC5B025D78F8FAA37EC35B30 /* GPBDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9358AD8A90E51385E55B0A039CA8B843 /* GPBDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		225E342CBC08B67E2F7412369F656E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		25D032904200675A3176F48132762B2A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B54C013F07586FBB52BC483E1092D9 /* MASConstraint.m */; };
+		2688D3646702FD7F0618581D78A3FDA9 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23CE1C3BCEF882C1891B93C1849EF72B /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C4026E46F8833731A928675A513E25 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 674BFDF72EBDBDBD8AB9DE79A9531035 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28D204202F7E141F9EC4DC28BD8E1FA2 /* Pods-CoinQPay-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 950A4D3689B69A17397E7D5047905C7D /* Pods-CoinQPay-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C402CFE21B4DE47EC157171B3B3D6C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		2C662A18884EC0F914375D3BA0C07B85 /* GPBApi.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B99BF839121E43D97769CC57B5F2B6 /* GPBApi.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2EE3B35C0795ADC216EE623A25ABEBE2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C62775201AF0D61EC0A310D9D23C2899 /* NSArray+MASAdditions.m */; };
+		324DC3022CB90DD2924453EA7A08625D /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 326677AEC07C80C92D947BF83F20DF09 /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32598035F356662F4539453D248E4A6C /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D282869A2B9BFC1F4290DE40717A8E57 /* GPBDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32F160219F846BB2573F316DCAA63B42 /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DEB905440FC55E1B096C8EB4C8F0F5 /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37FCA1A6254ACF1574DB35D5BF3DFB06 /* GPBDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5BB56CC6C0A7F01DBC44165B3BE8DB /* GPBDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C2496812A039DBD8AE9322E30EDA06B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 860F9DCF990E6D257F05CFB8DA538A59 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C446F42F747E2062750B354AE894762 /* GPBFieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21FEEC5105DADBA30508C6CD2FEB72 /* GPBFieldMask.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E4AA6D847EBEC6D1FACF2190C8D9D1B /* Wrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E84866BC44E74742557B5080F12B5A7 /* Wrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F48410E5DD2405BE86DA1243D102227 /* Pods-CoinQPay-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5BF698DE91E7A043F1480E802C2AC9 /* Pods-CoinQPay-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43CA7DEC28F1BA07E9CE69B306939401 /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 440197DF7042FA52D7765587CE556D44 /* GPBRootObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4774DEE39E155D787CBC9E93E575F735 /* GPBStruct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E941FE5FBF76401C112E8AF6F02CE7 /* GPBStruct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		498E0425C82BD73BEB212E7CC5423232 /* GPBAny.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9914C90A5E7801AD3E9B7846507029AC /* GPBAny.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4B158AEF2D1675E60F128F97CAFAFB77 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD02DAB28AEAF960F85DECC7FEADF45 /* MASViewAttribute.m */; };
+		4C68470C8BD23F410616569A2D374DD7 /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 921E2418D487F1683D973E0FD645F0A1 /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		505E659961FAC348259453E8C629F6D3 /* GPBType.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC00F4FB34F017A3601D4EC77452E82 /* GPBType.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51B764E00CE0D33E72045E1F5F69C16F /* GPBTimestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F69AA8BB0BBDF90FAEF8D09F72B876E /* GPBTimestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		523F2322DE12F592ADEADF820B719861 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C066BE25BAE949505A0818D5C350B3C /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		545290AB2ADCAB3F2A44F0E21D2ABE6E /* GPBMessage_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CDBBB76AEAA6D28DAA4DAD24134DB93 /* GPBMessage_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		588B6F652F551B902E66A4E018FEFC91 /* GPBWrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D960351284885FD1747F9D89E9A93A /* GPBWrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AFBE13A572DAB20BB5268DD83B95370 /* GPBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7682843CADC7A3C25C1C25B3CD32B1A8 /* GPBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D25071F95D08473A06B9794A961D44E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 117330B4BEDB74AF910516CF5AC2026F /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6165BB5309D26B382CB59A25F5609AE9 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 448A152D78C7E41386CDA6AED2DF2910 /* Masonry-dummy.m */; };
+		6444A656E2F4A56514835BA3362F01F1 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7635A30DAF618770E6604CABEAD694E7 /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6563AEC69BC0C8F30E0BB68C2A60AB7C /* GPBRootObject_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA9EB601C86C2587821252326CDC551 /* GPBRootObject_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6619E8F20502A39C2FA6A2648F146B0C /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D612091C0F861201625FEF764C5E27 /* GPBRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		674996F3ED7AE9C87AB9143B57A139EA /* GPBCodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9F44A679B19A7B6921B56B3D00E1EB /* GPBCodedInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		677CF768B3B57832C7F48A4928FD144F /* Empty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D305DABCF84951F78E09E843A47EE6 /* Empty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		696108C8F5E53FC5EA308B129497344D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C816FE86F586F7A300CCF698DAB373 /* ViewController+MASAdditions.m */; };
+		6BC62B43B54C7DDE7EA354D22F2DDC5F /* Any.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1D2917C7076997B98546EC79435D7A /* Any.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C50068C99FF76E3FD282C8EE6ACF9EC /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 585AA6F445FBEBDFFEDDDBAC255744EF /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71AC3644B3D48AE367CA2F924352F203 /* GPBFieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = E06E988A7E5586B2C7E74E6897E9CFE5 /* GPBFieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7363EDC40E54B0625DE4145D2474DB85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		73893D489ED064ECF04193F478CFBACF /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB5A0AE65691AE3A6D87E6AA9D340 /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		79A6EB0D3EBA61F4B19DE476A4F54F35 /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F336570818D49183999CE26D92BA8D /* GPBCodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DFBA80398CA247D58B9895E39BB8D5C /* Protobuf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9BC4E7383CC3CCAE779542A9C30B0A /* Protobuf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E78722FE087773F79E64A7D1843C7A3 /* GPBUnknownField.h in Headers */ = {isa = PBXBuildFile; fileRef = EE458A3AA12A385C1069F0342318D1B0 /* GPBUnknownField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81865759A7F5BA7F0BDC86F9143BDDD2 /* GPBCodedInputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2DCB683D87396BEA96F5EB8AE6889 /* GPBCodedInputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F58A72874F3F5F049F04B5C755EAC8 /* SourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D498619D9AEC36C6A893856DB01BFA /* SourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84390EE201F7F321E7E50A573E7F0B7C /* GPBTimestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0D4AE74586E52393C12909FF27BDB2 /* GPBTimestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8448233EC9E9EBFC09F2EF34681FCD32 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E3FC7FF6094EE21809661E77B209DD /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		887011F3A4D02E98C5EDE5BA64F80FAB /* Pods-CoinQPay-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E70BB8BFFBD3CF5EBEEFE59D8BA454 /* Pods-CoinQPay-iOS_Tests-dummy.m */; };
+		8B585B494082964C5265EEC1F9EE3211 /* GPBWellKnownTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E9021AB24F80A1584C5A6416221ABA3A /* GPBWellKnownTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B59875956CA17B7B2473CB7CD8E5CAB /* Protobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8AE7BA3822C8F6117A03237AFC44B /* Protobuf-dummy.m */; };
+		8CE0BE4F99BAFA8F772C2DC2FF2A69DD /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6F29AF5B6C3D8C04F2AE6F8C163586 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E4D8B97363FDEEF04FCB73FA0496652 /* GPBDictionary_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CBFDAF02D2C877288D39F4231E263B /* GPBDictionary_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937C1353F4BFC57B4A4CFCC730FF75A5 /* FieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE5BAF637EA15ED4227505F8D582D94 /* FieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93B7974680C13F0149DEF7993D4B9D9B /* GPBEmpty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 76703F8E80A2887A85F21EDCFEA2C0A3 /* GPBEmpty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		95EFD63E290936C7547950656352B153 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A88AAC271855E68B4D50D52B05C09B /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A06ECBE91E2704B7250EA53F90BA9EA /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = E232106179A8186451B9DB3931C30EB2 /* GPBExtensionInternals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA189505A9FBFCFF52E4458926A6FDF /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F96D735C570E76FE86361F362496D551 /* GPBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9ADC7EEE8944E4D02D38AE1BC6453D33 /* GPBAny.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F8E0AD31A84113A8096496F875FE53 /* GPBAny.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7DD33682E1C570E94F93F53857261A /* GPBEmpty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 917AA8B51BAF83CFC58F8D939BF747F6 /* GPBEmpty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0ACABA5315E0B6669DA5D77B3DCE9E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080CDF2A137E92462D6FC36CBF645B0 /* MASConstraintMaker.m */; };
+		A26A9C866CBD995E6EB3833220D4383B /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B4C7067B3983AE346153482DB280E3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58D428DEFD9EB286DA6DCEE0AC99379 /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC02EFD77378C787484AE1139155911 /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC69C491FEDF3C935A8BEB2C96691807 /* GPBWrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 198317EFE9C0D74F721D279F24B0B101 /* GPBWrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD8C6637D834379D0CFE16250C6755EA /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD01D5FAFB71BE7611657250436668D /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEF2948E3D56D5A8DF8127EC238DFB77 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBC683E8EC5ADD77BDDBEC8F6B5BD91 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF1AC287FE6CB684A599EA406FE2493E /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B42D3E8924510B3AF1AC6D5AFFCC5F /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B13A86AA0834D7B23A03482010A0B437 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5CF82E45EFAF1B679CD6A12F075B72 /* MASLayoutConstraint.m */; };
+		B70F4FE0F24113B2D58E77935432708F /* Struct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = A5210843DADB30A362584712E7CDFE9F /* Struct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D6588594047B90A18C7CE899607E18 /* Type.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F626479BDA7D66ED101FEC780F64A1 /* Type.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF32128A0CCB3C0F76A623E262FF6A03 /* GPBStruct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 730F6CD4F1B03823A46409F0772DCE86 /* GPBStruct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF1F2794B4921337D845CACDAB19DE6 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0936D9CCD6375C56F7951C49E8364DE /* MASViewConstraint.m */; };
+		CA5D3BDCBEDC86A3D704A5FEB812D07A /* GPBUtilities_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0C6224FF1B02E4415AF5280CED4E23 /* GPBUtilities_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CACDAB3A70C6C5BBECFDA9B4778719A0 /* Pods-CoinQPay-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 861280AF0AE785E76E3F47F78491C096 /* Pods-CoinQPay-iOS_Example-dummy.m */; };
+		CB60C0D82A69266428EE04F7A7EADC04 /* GPBSourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 217DD0869B05D66FF4F7E5FA9BDE6EF4 /* GPBSourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDAA19AC8DE8F98D3DBD8E1095BB6620 /* GPBSourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B91FD2F083C0A8CDEDF3F74E6E10A3 /* GPBSourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D39A96A4F35F374BD04FF6315E40D93F /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = BA462B05D1099799E1F34467E1B62EBA /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D45441752D9B4461499BC04B9E3243F1 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 03864F34F730A72D44A72CBB4F457E64 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4961D7653B925B40510BA2B7BBE2565 /* GPBApi.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7834B74265A922A1A27345D94A1B3FD6 /* GPBApi.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5532F0986FE18AF61A2BDD1C955A64B /* GPBDuration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C844EEA4CC181B44F26064DCF917BA8 /* GPBDuration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E9A59054300898EB3D8E78E894C2CE /* GPBMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E62856ECC7895EB689941A47024666 /* GPBMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D7FBA9EFEB66214D43D948ADB33E61 /* GPBProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0358EBBF5949A579F8E1F8A633BB0AAB /* GPBProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB153E9E2FE3BDF99C5BA0E611D2FC1F /* GPBCodedOutputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA2C82859CD18B54736EDFB878C50BE /* GPBCodedOutputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2649061F0DB3759E26B10F9DD73F07D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E4C5AB2B5432266906FF6FBC6D848696 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A07844610754720C5DDBB43FB2330 /* MASCompositeConstraint.m */; };
+		E7077DB38DEBB2C47B01AA5CDCA8F543 /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DF1E2E2BD6428589D7B84E23C9899 /* GPBWireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E90EB86ED512832BD3ECE59E5192A55D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6413F5E68E1A93D9368396C894AF7A1 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9AE6E33E1EEB5021F80A652B46232F0 /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = EF41AE7BAD221B63048C6E7A3F785C25 /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA25D0478EC209544FF093599BB5837C /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7800E458BA62457E206644ED5FEB78A /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED311D026DEBD68F3A331F29FA270C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		EE88FC551D2411B683ABB9A55E5147C7 /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CF3F35AB128A10FDEF09462AA30A60 /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F169EB43002B97ED5B4D563093F8988E /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECFEE8A73D259C4733ADCB767821747 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F181BF192EC10AD2F168CF07EBE4F267 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A2767916BDFC4ABB941BD0B4FD8D4941 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F722CCA0AEA8E2F5C45DA30DFC1BC1B3 /* GPBUnknownField_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8925FF078E9E374B0F6C4519976295 /* GPBUnknownField_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87F4A59AE75AA0B294F230A2B49C5AB /* GPBType.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354DD7030D8A11EF3EC28E067A1DA82 /* GPBType.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F8ACC2A0CA092761CC1FF184705ADDEE /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D62CD97775A29F4541CE738AC96899F5 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4896989127C912B20B34F86C8635E8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D715BEB1FD61FED91C456538B89DD2BD /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FD8107139C9A45611265D7B8848F8BC8 /* GPBArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C20F9C6D099FF92FE9588815D1FB7B /* GPBArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBA9A13A66D706B0A87DC913C3BC738 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242D3FFD94CEC1331D894556EDD4DDA /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1953EE842E3DFAD8058DE5D2E6B4B4 /* GPBCodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AB0B41A577BE7AF079AFB65B7EB312 /* GPBCodedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226D9C41EF8A52D9AEA18A796DB113A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		38C2BC220EC803F50CA6256285C3A50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A4D626F74B6808AFD3173BEF993639;
+			remoteInfo = "Pods-CoinQPay-iOS_Example";
+		};
+		68E6165BB0A68C80997E77778E85A6DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		8442A77838AB2E2D4222AE0F5AA4BECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470FE31978DC918618A329D8B55C85FF;
+			remoteInfo = Protobuf;
+		};
+		8D5F1603CD564C6A09FC11B91CCDF1E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		ACD6E9E6672D334DAAD1D4104FD5C7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470FE31978DC918618A329D8B55C85FF;
+			remoteInfo = Protobuf;
+		};
+		DA7B0BEB1BEDA78DE52F1056CB1A903A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		DD39D4EC4F55438CAA75DEB83B9C79E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22EBBE5791B90D61ACB967B2E5FD6113;
+			remoteInfo = "CoinQPay-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008497559589BA2556F624F5F97B7FBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0085CACB19EA22BB5BCA4D009075FF3C /* CoinQPay-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CoinQPay-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		00B42D3E8924510B3AF1AC6D5AFFCC5F /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownFieldSet.m; path = objectivec/GPBUnknownFieldSet.m; sourceTree = "<group>"; };
+		0246F4F29E758368C6A223B2F28955E8 /* Protobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-prefix.pch"; sourceTree = "<group>"; };
+		0358EBBF5949A579F8E1F8A633BB0AAB /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = objectivec/GPBProtocolBuffers.h; sourceTree = "<group>"; };
+		03864F34F730A72D44A72CBB4F457E64 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		03905BCFA813D7586094EE845E30D37A /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = "include-ios/openssl/evp.h"; sourceTree = "<group>"; };
+		048B31B7332438B744AA5D2763776130 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = "include-ios/openssl/ssl2.h"; sourceTree = "<group>"; };
+		06BA7ECFF48F0885B24158F8D6852C43 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = "include-ios/openssl/dso.h"; sourceTree = "<group>"; };
+		07DAF9E6D78EE26196D611264096BC1B /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = "include-ios/openssl/seed.h"; sourceTree = "<group>"; };
+		0900D9C7374DB74CB1EEACED475F3EE2 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = "include-ios/openssl/asn1_mac.h"; sourceTree = "<group>"; };
+		0C55D5A51E6823C4A3ED52694FBEA54D /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = "include-ios/openssl/opensslv.h"; sourceTree = "<group>"; };
+		0E268C46E62F8FE301D2AF256CBFBB65 /* Pods-CoinQPay-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinQPay-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0E83CC928CDCE0131DD6D783034E9E9E /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = "include-ios/openssl/des_old.h"; sourceTree = "<group>"; };
+		10F91A27018A7519FE78FE58DDAD5E10 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = "include-ios/openssl/dtls1.h"; sourceTree = "<group>"; };
+		11582DFE638D3BA9BBED891595BD6A21 /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = "include-ios/openssl/obj_mac.h"; sourceTree = "<group>"; };
+		116DF44F84B6BE987DD023BC7535A23B /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = "include-ios/openssl/rc4.h"; sourceTree = "<group>"; };
+		117330B4BEDB74AF910516CF5AC2026F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		132A07844610754720C5DDBB43FB2330 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		14A88AAC271855E68B4D50D52B05C09B /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
+		185AA341F7B3E47FE80E77E89E5F41BA /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = "include-ios/openssl/conf.h"; sourceTree = "<group>"; };
+		195EC72EE8220A72847E5FD2B6B38FF6 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = "include-ios/openssl/ui.h"; sourceTree = "<group>"; };
+		198317EFE9C0D74F721D279F24B0B101 /* GPBWrappers.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWrappers.pbobjc.m; path = objectivec/GPBWrappers.pbobjc.m; sourceTree = "<group>"; };
+		19C1D8BA5F0922ACF77A5B396262EE32 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		1C0D4AE74586E52393C12909FF27BDB2 /* GPBTimestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBTimestamp.pbobjc.h; path = objectivec/GPBTimestamp.pbobjc.h; sourceTree = "<group>"; };
+		1C11B29F8E5A8AD563519F285E26EFC3 /* Pods-CoinQPay-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinQPay-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C9D2AC050175F57D73FDA6543B07AF1 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = "include-ios/openssl/ui_compat.h"; sourceTree = "<group>"; };
+		1CFF03B1F390AF3DE54D4FBCDEC7737E /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = "include-ios/openssl/srp.h"; sourceTree = "<group>"; };
+		1E6E2B5DB4A2FA3FBE6FF3EDA5309BF6 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = "include-ios/openssl/ssl3.h"; sourceTree = "<group>"; };
+		1ECFEE8A73D259C4733ADCB767821747 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		1F18FCBE6B73B846040B746380BF9996 /* GPBCodedOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedOutputStream.m; path = objectivec/GPBCodedOutputStream.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		217DD0869B05D66FF4F7E5FA9BDE6EF4 /* GPBSourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBSourceContext.pbobjc.h; path = objectivec/GPBSourceContext.pbobjc.h; sourceTree = "<group>"; };
+		21B54C013F07586FBB52BC483E1092D9 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		2353FB01A6D450A418AB5A72724877A7 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = "include-ios/openssl/ecdh.h"; sourceTree = "<group>"; };
+		23CE1C3BCEF882C1891B93C1849EF72B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		23E70BB8BFFBD3CF5EBEEFE59D8BA454 /* Pods-CoinQPay-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoinQPay-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		27E3FC7FF6094EE21809661E77B209DD /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		29DAB5A0AE65691AE3A6D87E6AA9D340 /* GPBUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUtilities.m; path = objectivec/GPBUtilities.m; sourceTree = "<group>"; };
+		2B69BC3B02EF92EAD53BD453AFE73F1C /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		2BD8AE7BA3822C8F6117A03237AFC44B /* Protobuf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Protobuf-dummy.m"; sourceTree = "<group>"; };
+		2DDE80E7FAD00A4B6EDF9FB8F585DEDD /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = "include-ios/openssl/pkcs12.h"; sourceTree = "<group>"; };
+		2E02B6B7FC803749EB01CF6BCA970F53 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = "include-ios/openssl/modes.h"; sourceTree = "<group>"; };
+		2E5CF82E45EFAF1B679CD6A12F075B72 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2EA9EB601C86C2587821252326CDC551 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject_PackagePrivate.h; path = objectivec/GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		307C67156F668E8931C5A177D3D3C512 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = "include-ios/openssl/pem.h"; sourceTree = "<group>"; };
+		3080CDF2A137E92462D6FC36CBF645B0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		31A8DF7928CC04CC1283264FE24666B9 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = "include-ios/openssl/camellia.h"; sourceTree = "<group>"; };
+		326677AEC07C80C92D947BF83F20DF09 /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray_PackagePrivate.h; path = objectivec/GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
+		330EA4E6FD1C9A46FE10F3B3A9C1C388 /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = "include-ios/openssl/objects.h"; sourceTree = "<group>"; };
+		3353B7E78EFA325ED137161A691DE21B /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = "include-ios/openssl/idea.h"; sourceTree = "<group>"; };
+		36F626479BDA7D66ED101FEC780F64A1 /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
+		372F69EA665A2B6ABEA23A38831201E0 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = "include-ios/openssl/symhacks.h"; sourceTree = "<group>"; };
+		39625992BA5054DC8B38FF84110F1E80 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = "include-ios/openssl/bio.h"; sourceTree = "<group>"; };
+		396ACFF96A250DC6E3A031744026310C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		39AC0A5A9B622DB254D1610F61B4A101 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = "include-ios/openssl/srtp.h"; sourceTree = "<group>"; };
+		3A9BC4E7383CC3CCAE779542A9C30B0A /* Protobuf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-umbrella.h"; sourceTree = "<group>"; };
+		3D19025B5C28F54308AE5458B3F86EF3 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		3DCD17FA33AC58D37F5BF882EB437FD9 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = "include-ios/openssl/asn1t.h"; sourceTree = "<group>"; };
+		3E6F29AF5B6C3D8C04F2AE6F8C163586 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		3E84866BC44E74742557B5080F12B5A7 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Wrappers.pbobjc.h; path = objectivec/google/protobuf/Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		3F3B81106BAB53761D388CE2199FB8D5 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = "include-ios/openssl/ossl_typ.h"; sourceTree = "<group>"; };
+		3FE2DCB683D87396BEA96F5EB8AE6889 /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = objectivec/GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		40CF3F35AB128A10FDEF09462AA30A60 /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWellKnownTypes.m; path = objectivec/GPBWellKnownTypes.m; sourceTree = "<group>"; };
+		42B99BF839121E43D97769CC57B5F2B6 /* GPBApi.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBApi.pbobjc.m; path = objectivec/GPBApi.pbobjc.m; sourceTree = "<group>"; };
+		42BC22415156C2C5408322574343F8F3 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = "include-ios/openssl/ocsp.h"; sourceTree = "<group>"; };
+		43C22B3F015268E96351A2515A9E0D08 /* Pods-CoinQPay-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinQPay-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		43D4B022C5126C09514953C6E5091FD5 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "include-ios/openssl/ripemd.h"; sourceTree = "<group>"; };
+		440197DF7042FA52D7765587CE556D44 /* GPBRootObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBRootObject.m; path = objectivec/GPBRootObject.m; sourceTree = "<group>"; };
+		445698724FB8C79DC121ECEF1D98924D /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "include-ios/openssl/stack.h"; sourceTree = "<group>"; };
+		4481860CBE7F1974186C7A98A8DD5DEC /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = "include-ios/openssl/ec.h"; sourceTree = "<group>"; };
+		448467D6605BA12FFF2CFF281D3DE227 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = "include-ios/openssl/conf_api.h"; sourceTree = "<group>"; };
+		448A152D78C7E41386CDA6AED2DF2910 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		45DD5942C9703E4A643BC8F06B42BBE4 /* TPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TPSDK.framework; path = "CoinQPay-iOS/TPSDK.framework"; sourceTree = "<group>"; };
+		4A33CBBC3AF511E8C3DF563AA86E3D5B /* Protobuf-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Protobuf-Info.plist"; sourceTree = "<group>"; };
+		4CDBBB76AEAA6D28DAA4DAD24134DB93 /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage_PackagePrivate.h; path = objectivec/GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
+		4CE5BAF637EA15ED4227505F8D582D94 /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldMask.pbobjc.h; path = objectivec/google/protobuf/FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		4D26C33E290904AAEB15DD531AF2EEAB /* GPBWireFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWireFormat.h; path = objectivec/GPBWireFormat.h; sourceTree = "<group>"; };
+		50DD52BDDFDCB681A2C0029785E387F1 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = "include-ios/openssl/ebcdic.h"; sourceTree = "<group>"; };
+		52631C098679CE9A3CCBBBE2C8B7B337 /* Pods-CoinQPay-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinQPay-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		52B687EDDE2B366C9296AA37C146E02B /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "include-ios/openssl/hmac.h"; sourceTree = "<group>"; };
+		5354DD7030D8A11EF3EC28E067A1DA82 /* GPBType.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBType.pbobjc.m; path = objectivec/GPBType.pbobjc.m; sourceTree = "<group>"; };
+		5528994E3B7C19749CF5A166FC70ECE8 /* CoinQPay-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "CoinQPay-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		585AA6F445FBEBDFFEDDDBAC255744EF /* GPBExtensionInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionInternals.h; path = objectivec/GPBExtensionInternals.h; sourceTree = "<group>"; };
+		595EC8E85E058AB06C1B07B56907B420 /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = "include-ios/openssl/x509v3.h"; sourceTree = "<group>"; };
+		5C530B7FB86E8E828CB0A4E8B5803B63 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
+		5DD02DAB28AEAF960F85DECC7FEADF45 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		5F2887696D26F93E8565F0DBE69121C9 /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Timestamp.pbobjc.h; path = objectivec/google/protobuf/Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		5F69AA8BB0BBDF90FAEF8D09F72B876E /* GPBTimestamp.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBTimestamp.pbobjc.m; path = objectivec/GPBTimestamp.pbobjc.m; sourceTree = "<group>"; };
+		61CBFDAF02D2C877288D39F4231E263B /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary_PackagePrivate.h; path = objectivec/GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
+		63E941FE5FBF76401C112E8AF6F02CE7 /* GPBStruct.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBStruct.pbobjc.m; path = objectivec/GPBStruct.pbobjc.m; sourceTree = "<group>"; };
+		645A4ABCDF7AC7D6C6D32657FB78BE6E /* Pods-CoinQPay-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinQPay-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		64C816FE86F586F7A300CCF698DAB373 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		65B084EA8F66B6FA246C678A760CE732 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = "include-ios/openssl/md4.h"; sourceTree = "<group>"; };
+		674BFDF72EBDBDBD8AB9DE79A9531035 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		6899ADED977CE9AF63AE0FA2EB293522 /* Duration.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Duration.pbobjc.h; path = objectivec/google/protobuf/Duration.pbobjc.h; sourceTree = "<group>"; };
+		68A84FC70CF63624971FDFE0311BC96B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		68C4B7F208641B6D3C0AC7C65D0E3F50 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = "include-ios/openssl/tls1.h"; sourceTree = "<group>"; };
+		6C844EEA4CC181B44F26064DCF917BA8 /* GPBDuration.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDuration.pbobjc.h; path = objectivec/GPBDuration.pbobjc.h; sourceTree = "<group>"; };
+		6CC02EFD77378C787484AE1139155911 /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor_PackagePrivate.h; path = objectivec/GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
+		6E0C6224FF1B02E4415AF5280CED4E23 /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities_PackagePrivate.h; path = objectivec/GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
+		6FF3690A80F1717F4A3069D7D59B7880 /* CoinQPay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoinQPay.framework; path = "CoinQPay-iOS/CoinQPay.framework"; sourceTree = "<group>"; };
+		70347C601C9C8B33FF52059EA1B968D3 /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.pbobjc.h; path = objectivec/google/protobuf/Api.pbobjc.h; sourceTree = "<group>"; };
+		7208F03AAA89EC776DAEEC85EB6F359B /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = "include-ios/openssl/txt_db.h"; sourceTree = "<group>"; };
+		730F6CD4F1B03823A46409F0772DCE86 /* GPBStruct.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBStruct.pbobjc.h; path = objectivec/GPBStruct.pbobjc.h; sourceTree = "<group>"; };
+		748B69053F25A439EEEC23A517E015E5 /* Pods-CoinQPay-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinQPay-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		752619F5F681E5996F6CF4723A3D9F71 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
+		75A9CD2404A275A6F44B4D08DF2D03BB /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = "include-ios/openssl/engine.h"; sourceTree = "<group>"; };
+		75C2D606A5CC0315675BA2EC50CA0B66 /* Pods-CoinQPay-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinQPay-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7635A30DAF618770E6604CABEAD694E7 /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers_RuntimeSupport.h; path = objectivec/GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		76703F8E80A2887A85F21EDCFEA2C0A3 /* GPBEmpty.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBEmpty.pbobjc.m; path = objectivec/GPBEmpty.pbobjc.m; sourceTree = "<group>"; };
+		7682843CADC7A3C25C1C25B3CD32B1A8 /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = objectivec/GPBUtilities.h; sourceTree = "<group>"; };
+		7834B74265A922A1A27345D94A1B3FD6 /* GPBApi.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBApi.pbobjc.h; path = objectivec/GPBApi.pbobjc.h; sourceTree = "<group>"; };
+		78F21B7A3428395B1C6DD18BC5541F49 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		7BD28643FE71993A8F611BEF7A9E30CD /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = "include-ios/openssl/opensslconf.h"; sourceTree = "<group>"; };
+		7C3D1F68D6AAE22782BB1D0C91FCA724 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = "include-ios/openssl/comp.h"; sourceTree = "<group>"; };
+		7EA3D4044542222007BDCBCB757E6B19 /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionRegistry.h; path = objectivec/GPBExtensionRegistry.h; sourceTree = "<group>"; };
+		812C4AAA6CC8F9F159C9BCC48E0412B3 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = "include-ios/openssl/kssl.h"; sourceTree = "<group>"; };
+		8242D3FFD94CEC1331D894556EDD4DDA /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8347AC69BE041CA97F706B57D7570A13 /* GPBDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDictionary.m; path = objectivec/GPBDictionary.m; sourceTree = "<group>"; };
+		83645EF35A421CA74C20BDE099785396 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = "include-ios/openssl/pem2.h"; sourceTree = "<group>"; };
+		84B91FD2F083C0A8CDEDF3F74E6E10A3 /* GPBSourceContext.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBSourceContext.pbobjc.m; path = objectivec/GPBSourceContext.pbobjc.m; sourceTree = "<group>"; };
+		860F9DCF990E6D257F05CFB8DA538A59 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		861280AF0AE785E76E3F47F78491C096 /* Pods-CoinQPay-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoinQPay-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		87AB0B41A577BE7AF079AFB65B7EB312 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = objectivec/GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		87D960351284885FD1747F9D89E9A93A /* GPBWrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWrappers.pbobjc.h; path = objectivec/GPBWrappers.pbobjc.h; sourceTree = "<group>"; };
+		887D431AFE9C34F1B7B0D2200969F0BB /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = "include-ios/openssl/lhash.h"; sourceTree = "<group>"; };
+		8C2DF1E2E2BD6428589D7B84E23C9899 /* GPBWireFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWireFormat.m; path = objectivec/GPBWireFormat.m; sourceTree = "<group>"; };
+		8CC40004A8D793F7EF7390EAB7CADA49 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = "include-ios/openssl/cms.h"; sourceTree = "<group>"; };
+		8D21FEEC5105DADBA30508C6CD2FEB72 /* GPBFieldMask.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBFieldMask.pbobjc.m; path = objectivec/GPBFieldMask.pbobjc.m; sourceTree = "<group>"; };
+		8F15D196EA0E7C0CB146D77F10277C21 /* Protobuf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Protobuf.modulemap; sourceTree = "<group>"; };
+		8F1B1E5DCF0E8AD259614FCC72DDB165 /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = "include-ios/openssl/ts.h"; sourceTree = "<group>"; };
+		90B4C7067B3983AE346153482DB280E3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		917AA8B51BAF83CFC58F8D939BF747F6 /* GPBEmpty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBEmpty.pbobjc.h; path = objectivec/GPBEmpty.pbobjc.h; sourceTree = "<group>"; };
+		921E2418D487F1683D973E0FD645F0A1 /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionRegistry.m; path = objectivec/GPBExtensionRegistry.m; sourceTree = "<group>"; };
+		92E62856ECC7895EB689941A47024666 /* GPBMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage.h; path = objectivec/GPBMessage.h; sourceTree = "<group>"; };
+		92F754659AE4588F4FE6E089E7A100BD /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = "include-ios/openssl/x509_vfy.h"; sourceTree = "<group>"; };
+		9358AD8A90E51385E55B0A039CA8B843 /* GPBDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary.h; path = objectivec/GPBDictionary.h; sourceTree = "<group>"; };
+		94FC9D6972A4EBF7B5818EEFF276A779 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = "include-ios/openssl/rand.h"; sourceTree = "<group>"; };
+		950A4D3689B69A17397E7D5047905C7D /* Pods-CoinQPay-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinQPay-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		9563D37E950269AF724AD4D60B7AF9E5 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = "include-ios/openssl/dsa.h"; sourceTree = "<group>"; };
+		97AACA592AE472AF92885CBE48320147 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "include-ios/openssl/sha.h"; sourceTree = "<group>"; };
+		985CADD756434A070AFEACA3F6280E9A /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "include-ios/openssl/buffer.h"; sourceTree = "<group>"; };
+		98D498619D9AEC36C6A893856DB01BFA /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SourceContext.pbobjc.h; path = objectivec/google/protobuf/SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		9914C90A5E7801AD3E9B7846507029AC /* GPBAny.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBAny.pbobjc.m; path = objectivec/GPBAny.pbobjc.m; sourceTree = "<group>"; };
+		9B69C67246D6D3A002F40E7D10F92671 /* Pods-CoinQPay-iOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoinQPay-iOS_Example"; path = Pods_CoinQPay_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA9D19C5BB80705677CAC0DA777F413 /* CoinQPayResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = CoinQPayResource.bundle; sourceTree = "<group>"; };
+		9BDC4768667CD4C3FEB934BD68980451 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = "include-ios/openssl/dh.h"; sourceTree = "<group>"; };
+		9C066BE25BAE949505A0818D5C350B3C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8925FF078E9E374B0F6C4519976295 /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField_PackagePrivate.h; path = objectivec/GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
+		A0B37193CB36FC91CE8325C0DE8417F7 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "lib-ios/libcrypto.a"; sourceTree = "<group>"; };
+		A2767916BDFC4ABB941BD0B4FD8D4941 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A3914BDF72B67629CB495CE8A7FD1149 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "lib-ios/libssl.a"; sourceTree = "<group>"; };
+		A5210843DADB30A362584712E7CDFE9F /* Struct.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.pbobjc.h; path = objectivec/google/protobuf/Struct.pbobjc.h; sourceTree = "<group>"; };
+		A5984A3607D9E38D7AAA2AC597013AAC /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = "include-ios/openssl/asn1.h"; sourceTree = "<group>"; };
+		A7800E458BA62457E206644ED5FEB78A /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		AAA396CDC3E3D259D95C24A0653075FD /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = "include-ios/openssl/e_os2.h"; sourceTree = "<group>"; };
+		AAE8AE62DDF42C4F53D84A863E6A2E6D /* Pods-CoinQPay-iOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoinQPay-iOS_Tests"; path = Pods_CoinQPay_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5BF698DE91E7A043F1480E802C2AC9 /* Pods-CoinQPay-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinQPay-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AC579DE885AF4A3CA31793C61663A800 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "include-ios/openssl/blowfish.h"; sourceTree = "<group>"; };
+		AC973D0FA21BCF8CAE78AACB4DC094FB /* Protobuf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Protobuf.debug.xcconfig; sourceTree = "<group>"; };
+		AC9AEF0EBC8C9614375F485D1B1D76A4 /* Pods-CoinQPay-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoinQPay-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		AC9F44A679B19A7B6921B56B3D00E1EB /* GPBCodedInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream.h; path = objectivec/GPBCodedInputStream.h; sourceTree = "<group>"; };
+		ADD5AD8E48C5373B597F09829335CCDB /* Protobuf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Protobuf.release.xcconfig; sourceTree = "<group>"; };
+		AE87BA0F1C920D93C940BD21702DA3AD /* CoinQPay-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CoinQPay-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B3560035A8D3642DF8E213BD87E848ED /* Pods-CoinQPay-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinQPay-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		B3F3F9838B3CB729619B195D0C037573 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "include-ios/openssl/aes.h"; sourceTree = "<group>"; };
+		B5B0AAB8D1C0409E4F8B453F1BA331C4 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = "include-ios/openssl/pqueue.h"; sourceTree = "<group>"; };
+		B5C20F9C6D099FF92FE9588815D1FB7B /* GPBArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray.h; path = objectivec/GPBArray.h; sourceTree = "<group>"; };
+		B726F02EF78297DDAD79290B3AED229C /* TPSDKBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TPSDKBundle.bundle; sourceTree = "<group>"; };
+		B72EB6B8EDDB647F74CA34BFFA107C9A /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = "include-ios/openssl/pkcs7.h"; sourceTree = "<group>"; };
+		B8F336570818D49183999CE26D92BA8D /* GPBCodedInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedInputStream.m; path = objectivec/GPBCodedInputStream.m; sourceTree = "<group>"; };
+		BA462B05D1099799E1F34467E1B62EBA /* GPBUnknownField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownField.m; path = objectivec/GPBUnknownField.m; sourceTree = "<group>"; };
+		BAF72FEA487D24D37949FE856892B6DB /* Pods-CoinQPay-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinQPay-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		BFD01D5FAFB71BE7611657250436668D /* GPBMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBMessage.m; path = objectivec/GPBMessage.m; sourceTree = "<group>"; };
+		C0F8E0AD31A84113A8096496F875FE53 /* GPBAny.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBAny.pbobjc.h; path = objectivec/GPBAny.pbobjc.h; sourceTree = "<group>"; };
+		C1CDCD2730A47CB1DF1E426D237CE3A8 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = "include-ios/openssl/ssl23.h"; sourceTree = "<group>"; };
+		C2105C94812B6214B154F54DCEDB72AC /* Protobuf */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Protobuf; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42EF357F2B1B2C31CE1508D3BDC6961 /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = "include-ios/openssl/des.h"; sourceTree = "<group>"; };
+		C529B07DAE73535B05361750A83E718D /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		C59576589CB932504F5B9D91704170C1 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = "include-ios/openssl/whrlpool.h"; sourceTree = "<group>"; };
+		C60260302B29DE221F4B201E4B4C363A /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = "include-ios/openssl/ssl.h"; sourceTree = "<group>"; };
+		C62775201AF0D61EC0A310D9D23C2899 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C6413F5E68E1A93D9368396C894AF7A1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CA12313440150DD5A87CF9A422065745 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = "include-ios/openssl/cmac.h"; sourceTree = "<group>"; };
+		CC71E581283D1E33B8429E7C1C8C161D /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = "include-ios/openssl/ecdsa.h"; sourceTree = "<group>"; };
+		CCC00F4FB34F017A3601D4EC77452E82 /* GPBType.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBType.pbobjc.h; path = objectivec/GPBType.pbobjc.h; sourceTree = "<group>"; };
+		CDC1A3B752082E0FA077FD1E47F954AD /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = "include-ios/openssl/bn.h"; sourceTree = "<group>"; };
+		CE1F7821B3D4F6843EB691E6C6BEB216 /* Pods-CoinQPay-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinQPay-iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		D0936D9CCD6375C56F7951C49E8364DE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		D0ABB5E199D0A5655ECE2395C775F8CE /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet.h; path = objectivec/GPBUnknownFieldSet.h; sourceTree = "<group>"; };
+		D13B475042DE46E058708005FA5EF366 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = "include-ios/openssl/krb5_asn.h"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D282869A2B9BFC1F4290DE40717A8E57 /* GPBDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDescriptor.m; path = objectivec/GPBDescriptor.m; sourceTree = "<group>"; };
+		D2C70ED652AC604EDC3F9AF3054F8FB5 /* GPBDuration.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDuration.pbobjc.m; path = objectivec/GPBDuration.pbobjc.m; sourceTree = "<group>"; };
+		D332BD952A12A0205CF2C8A91E166FBB /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = "include-ios/openssl/rc2.h"; sourceTree = "<group>"; };
+		D62CD97775A29F4541CE738AC96899F5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D715BEB1FD61FED91C456538B89DD2BD /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		E06E988A7E5586B2C7E74E6897E9CFE5 /* GPBFieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBFieldMask.pbobjc.h; path = objectivec/GPBFieldMask.pbobjc.h; sourceTree = "<group>"; };
+		E232106179A8186451B9DB3931C30EB2 /* GPBExtensionInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = objectivec/GPBExtensionInternals.m; sourceTree = "<group>"; };
+		E4D305DABCF84951F78E09E843A47EE6 /* Empty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Empty.pbobjc.h; path = objectivec/google/protobuf/Empty.pbobjc.h; sourceTree = "<group>"; };
+		E5C453D09ADD593A4AD741CDFF07473E /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = "include-ios/openssl/safestack.h"; sourceTree = "<group>"; };
+		E9021AB24F80A1584C5A6416221ABA3A /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWellKnownTypes.h; path = objectivec/GPBWellKnownTypes.h; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EDBC34E0B03010E32DF1BFFC617D3BC3 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = "include-ios/openssl/crypto.h"; sourceTree = "<group>"; };
+		EE0AB838EFE45F0AA88085B03A4A9B5A /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = "include-ios/openssl/err.h"; sourceTree = "<group>"; };
+		EE458A3AA12A385C1069F0342318D1B0 /* GPBUnknownField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField.h; path = objectivec/GPBUnknownField.h; sourceTree = "<group>"; };
+		EEA2C82859CD18B54736EDFB878C50BE /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		EF41AE7BAD221B63048C6E7A3F785C25 /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRuntimeTypes.h; path = objectivec/GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		EF5BB56CC6C0A7F01DBC44165B3BE8DB /* GPBDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor.h; path = objectivec/GPBDescriptor.h; sourceTree = "<group>"; };
+		EFB9B473584A23945430F5847BF052B8 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = "include-ios/openssl/cast.h"; sourceTree = "<group>"; };
+		F1D612091C0F861201625FEF764C5E27 /* GPBRootObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject.h; path = objectivec/GPBRootObject.h; sourceTree = "<group>"; };
+		F31E72A4460942593599D2A484313C9E /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "include-ios/openssl/md5.h"; sourceTree = "<group>"; };
+		F3580790B1D6AFBE8855E5EE731457C3 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = "include-ios/openssl/rsa.h"; sourceTree = "<group>"; };
+		F3CDDB086246A47F99412FBE2BE7C503 /* Pods-CoinQPay-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinQPay-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4A11A827B427FA6FE24AC57F2BC230C /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = "include-ios/openssl/mdc2.h"; sourceTree = "<group>"; };
+		F5DEB905440FC55E1B096C8EB4C8F0F5 /* GPBBootstrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBBootstrap.h; path = objectivec/GPBBootstrap.h; sourceTree = "<group>"; };
+		F74C0291A6BE3FF93AC88937CB7C3E0C /* Pods-CoinQPay-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinQPay-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F78919DEE8567CC46D4B14E797EA5012 /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = "include-ios/openssl/x509.h"; sourceTree = "<group>"; };
+		F8B2B3D674B3DB444B292BE7F54C77F3 /* Pods-CoinQPay-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoinQPay-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		F96D735C570E76FE86361F362496D551 /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = objectivec/GPBArray.m; sourceTree = "<group>"; };
+		FC1D2917C7076997B98546EC79435D7A /* Any.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Any.pbobjc.h; path = objectivec/google/protobuf/Any.pbobjc.h; sourceTree = "<group>"; };
+		FDBC683E8EC5ADD77BDDBEC8F6B5BD91 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3853D4544D02D27F3F28D22EE23FCA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7363EDC40E54B0625DE4145D2474DB85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475402C7B4A48292111A4910E7601FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225E342CBC08B67E2F7412369F656E3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DB517B210D82F10E20C184F24257F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2649061F0DB3759E26B10F9DD73F07D /* Foundation.framework in Frameworks */,
+				2C402CFE21B4DE47EC157171B3B3D6C6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98A1B66E7923FF0FD9179B8E2378CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED311D026DEBD68F3A331F29FA270C50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07EAFF5169CC4EF84068BB55F8B648F2 /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D2917C7076997B98546EC79435D7A /* Any.pbobjc.h */,
+				70347C601C9C8B33FF52059EA1B968D3 /* Api.pbobjc.h */,
+				6899ADED977CE9AF63AE0FA2EB293522 /* Duration.pbobjc.h */,
+				E4D305DABCF84951F78E09E843A47EE6 /* Empty.pbobjc.h */,
+				4CE5BAF637EA15ED4227505F8D582D94 /* FieldMask.pbobjc.h */,
+				C0F8E0AD31A84113A8096496F875FE53 /* GPBAny.pbobjc.h */,
+				9914C90A5E7801AD3E9B7846507029AC /* GPBAny.pbobjc.m */,
+				7834B74265A922A1A27345D94A1B3FD6 /* GPBApi.pbobjc.h */,
+				42B99BF839121E43D97769CC57B5F2B6 /* GPBApi.pbobjc.m */,
+				B5C20F9C6D099FF92FE9588815D1FB7B /* GPBArray.h */,
+				F96D735C570E76FE86361F362496D551 /* GPBArray.m */,
+				326677AEC07C80C92D947BF83F20DF09 /* GPBArray_PackagePrivate.h */,
+				F5DEB905440FC55E1B096C8EB4C8F0F5 /* GPBBootstrap.h */,
+				AC9F44A679B19A7B6921B56B3D00E1EB /* GPBCodedInputStream.h */,
+				B8F336570818D49183999CE26D92BA8D /* GPBCodedInputStream.m */,
+				3FE2DCB683D87396BEA96F5EB8AE6889 /* GPBCodedInputStream_PackagePrivate.h */,
+				87AB0B41A577BE7AF079AFB65B7EB312 /* GPBCodedOutputStream.h */,
+				1F18FCBE6B73B846040B746380BF9996 /* GPBCodedOutputStream.m */,
+				EEA2C82859CD18B54736EDFB878C50BE /* GPBCodedOutputStream_PackagePrivate.h */,
+				EF5BB56CC6C0A7F01DBC44165B3BE8DB /* GPBDescriptor.h */,
+				D282869A2B9BFC1F4290DE40717A8E57 /* GPBDescriptor.m */,
+				6CC02EFD77378C787484AE1139155911 /* GPBDescriptor_PackagePrivate.h */,
+				9358AD8A90E51385E55B0A039CA8B843 /* GPBDictionary.h */,
+				8347AC69BE041CA97F706B57D7570A13 /* GPBDictionary.m */,
+				61CBFDAF02D2C877288D39F4231E263B /* GPBDictionary_PackagePrivate.h */,
+				6C844EEA4CC181B44F26064DCF917BA8 /* GPBDuration.pbobjc.h */,
+				D2C70ED652AC604EDC3F9AF3054F8FB5 /* GPBDuration.pbobjc.m */,
+				917AA8B51BAF83CFC58F8D939BF747F6 /* GPBEmpty.pbobjc.h */,
+				76703F8E80A2887A85F21EDCFEA2C0A3 /* GPBEmpty.pbobjc.m */,
+				585AA6F445FBEBDFFEDDDBAC255744EF /* GPBExtensionInternals.h */,
+				E232106179A8186451B9DB3931C30EB2 /* GPBExtensionInternals.m */,
+				7EA3D4044542222007BDCBCB757E6B19 /* GPBExtensionRegistry.h */,
+				921E2418D487F1683D973E0FD645F0A1 /* GPBExtensionRegistry.m */,
+				E06E988A7E5586B2C7E74E6897E9CFE5 /* GPBFieldMask.pbobjc.h */,
+				8D21FEEC5105DADBA30508C6CD2FEB72 /* GPBFieldMask.pbobjc.m */,
+				92E62856ECC7895EB689941A47024666 /* GPBMessage.h */,
+				BFD01D5FAFB71BE7611657250436668D /* GPBMessage.m */,
+				4CDBBB76AEAA6D28DAA4DAD24134DB93 /* GPBMessage_PackagePrivate.h */,
+				0358EBBF5949A579F8E1F8A633BB0AAB /* GPBProtocolBuffers.h */,
+				7635A30DAF618770E6604CABEAD694E7 /* GPBProtocolBuffers_RuntimeSupport.h */,
+				F1D612091C0F861201625FEF764C5E27 /* GPBRootObject.h */,
+				440197DF7042FA52D7765587CE556D44 /* GPBRootObject.m */,
+				2EA9EB601C86C2587821252326CDC551 /* GPBRootObject_PackagePrivate.h */,
+				EF41AE7BAD221B63048C6E7A3F785C25 /* GPBRuntimeTypes.h */,
+				217DD0869B05D66FF4F7E5FA9BDE6EF4 /* GPBSourceContext.pbobjc.h */,
+				84B91FD2F083C0A8CDEDF3F74E6E10A3 /* GPBSourceContext.pbobjc.m */,
+				730F6CD4F1B03823A46409F0772DCE86 /* GPBStruct.pbobjc.h */,
+				63E941FE5FBF76401C112E8AF6F02CE7 /* GPBStruct.pbobjc.m */,
+				1C0D4AE74586E52393C12909FF27BDB2 /* GPBTimestamp.pbobjc.h */,
+				5F69AA8BB0BBDF90FAEF8D09F72B876E /* GPBTimestamp.pbobjc.m */,
+				CCC00F4FB34F017A3601D4EC77452E82 /* GPBType.pbobjc.h */,
+				5354DD7030D8A11EF3EC28E067A1DA82 /* GPBType.pbobjc.m */,
+				EE458A3AA12A385C1069F0342318D1B0 /* GPBUnknownField.h */,
+				BA462B05D1099799E1F34467E1B62EBA /* GPBUnknownField.m */,
+				9F8925FF078E9E374B0F6C4519976295 /* GPBUnknownField_PackagePrivate.h */,
+				D0ABB5E199D0A5655ECE2395C775F8CE /* GPBUnknownFieldSet.h */,
+				00B42D3E8924510B3AF1AC6D5AFFCC5F /* GPBUnknownFieldSet.m */,
+				14A88AAC271855E68B4D50D52B05C09B /* GPBUnknownFieldSet_PackagePrivate.h */,
+				7682843CADC7A3C25C1C25B3CD32B1A8 /* GPBUtilities.h */,
+				29DAB5A0AE65691AE3A6D87E6AA9D340 /* GPBUtilities.m */,
+				6E0C6224FF1B02E4415AF5280CED4E23 /* GPBUtilities_PackagePrivate.h */,
+				E9021AB24F80A1584C5A6416221ABA3A /* GPBWellKnownTypes.h */,
+				40CF3F35AB128A10FDEF09462AA30A60 /* GPBWellKnownTypes.m */,
+				4D26C33E290904AAEB15DD531AF2EEAB /* GPBWireFormat.h */,
+				8C2DF1E2E2BD6428589D7B84E23C9899 /* GPBWireFormat.m */,
+				87D960351284885FD1747F9D89E9A93A /* GPBWrappers.pbobjc.h */,
+				198317EFE9C0D74F721D279F24B0B101 /* GPBWrappers.pbobjc.m */,
+				98D498619D9AEC36C6A893856DB01BFA /* SourceContext.pbobjc.h */,
+				A5210843DADB30A362584712E7CDFE9F /* Struct.pbobjc.h */,
+				5F2887696D26F93E8565F0DBE69121C9 /* Timestamp.pbobjc.h */,
+				36F626479BDA7D66ED101FEC780F64A1 /* Type.pbobjc.h */,
+				3E84866BC44E74742557B5080F12B5A7 /* Wrappers.pbobjc.h */,
+				0D0E5FA5AEC399E9B896DE15BBAA0AAF /* Support Files */,
+			);
+			name = Protobuf;
+			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		0D0E5FA5AEC399E9B896DE15BBAA0AAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F15D196EA0E7C0CB146D77F10277C21 /* Protobuf.modulemap */,
+				2BD8AE7BA3822C8F6117A03237AFC44B /* Protobuf-dummy.m */,
+				4A33CBBC3AF511E8C3DF563AA86E3D5B /* Protobuf-Info.plist */,
+				0246F4F29E758368C6A223B2F28955E8 /* Protobuf-prefix.pch */,
+				3A9BC4E7383CC3CCAE779542A9C30B0A /* Protobuf-umbrella.h */,
+				AC973D0FA21BCF8CAE78AACB4DC094FB /* Protobuf.debug.xcconfig */,
+				ADD5AD8E48C5373B597F09829335CCDB /* Protobuf.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Protobuf";
+			sourceTree = "<group>";
+		};
+		0E19F3260D3153C4F9F82EF0820A42CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				9B69C67246D6D3A002F40E7D10F92671 /* Pods-CoinQPay-iOS_Example */,
+				AAE8AE62DDF42C4F53D84A863E6A2E6D /* Pods-CoinQPay-iOS_Tests */,
+				C2105C94812B6214B154F54DCEDB72AC /* Protobuf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17333C08DFC8DD6EAE6C41D7D444A542 /* TPSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				B726F02EF78297DDAD79290B3AED229C /* TPSDKBundle.bundle */,
+			);
+			name = TPSDK.framework;
+			path = "CoinQPay-iOS/TPSDK.framework";
+			sourceTree = "<group>";
+		};
+		26A58F25AE10AFCA40AB773BAD692C33 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				9C066BE25BAE949505A0818D5C350B3C /* MASCompositeConstraint.h */,
+				132A07844610754720C5DDBB43FB2330 /* MASCompositeConstraint.m */,
+				03864F34F730A72D44A72CBB4F457E64 /* MASConstraint.h */,
+				21B54C013F07586FBB52BC483E1092D9 /* MASConstraint.m */,
+				3E6F29AF5B6C3D8C04F2AE6F8C163586 /* MASConstraint+Private.h */,
+				A2767916BDFC4ABB941BD0B4FD8D4941 /* MASConstraintMaker.h */,
+				3080CDF2A137E92462D6FC36CBF645B0 /* MASConstraintMaker.m */,
+				117330B4BEDB74AF910516CF5AC2026F /* MASLayoutConstraint.h */,
+				2E5CF82E45EFAF1B679CD6A12F075B72 /* MASLayoutConstraint.m */,
+				90B4C7067B3983AE346153482DB280E3 /* Masonry.h */,
+				FDBC683E8EC5ADD77BDDBEC8F6B5BD91 /* MASUtilities.h */,
+				674BFDF72EBDBDBD8AB9DE79A9531035 /* MASViewAttribute.h */,
+				5DD02DAB28AEAF960F85DECC7FEADF45 /* MASViewAttribute.m */,
+				860F9DCF990E6D257F05CFB8DA538A59 /* MASViewConstraint.h */,
+				D0936D9CCD6375C56F7951C49E8364DE /* MASViewConstraint.m */,
+				23CE1C3BCEF882C1891B93C1849EF72B /* NSArray+MASAdditions.h */,
+				C62775201AF0D61EC0A310D9D23C2899 /* NSArray+MASAdditions.m */,
+				27E3FC7FF6094EE21809661E77B209DD /* NSArray+MASShorthandAdditions.h */,
+				1ECFEE8A73D259C4733ADCB767821747 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D715BEB1FD61FED91C456538B89DD2BD /* NSLayoutConstraint+MASDebugAdditions.m */,
+				8242D3FFD94CEC1331D894556EDD4DDA /* View+MASAdditions.h */,
+				19C1D8BA5F0922ACF77A5B396262EE32 /* View+MASAdditions.m */,
+				C6413F5E68E1A93D9368396C894AF7A1 /* View+MASShorthandAdditions.h */,
+				D62CD97775A29F4541CE738AC96899F5 /* ViewController+MASAdditions.h */,
+				64C816FE86F586F7A300CCF698DAB373 /* ViewController+MASAdditions.m */,
+				D380E6120051A56DE41C3C7A6FF720E6 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3441101140374A676F811B025370247B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5528994E3B7C19749CF5A166FC70ECE8 /* CoinQPay-iOS.podspec */,
+				396ACFF96A250DC6E3A031744026310C /* LICENSE */,
+				008497559589BA2556F624F5F97B7FBD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		35F93B571428D85CC03A697BB293E691 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0085CACB19EA22BB5BCA4D009075FF3C /* CoinQPay-iOS.debug.xcconfig */,
+				AE87BA0F1C920D93C940BD21702DA3AD /* CoinQPay-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CoinQPay-iOS";
+			sourceTree = "<group>";
+		};
+		3D17DC00DB02496ACEDB0DD1FE1F54FD /* CoinQPay-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C0A329C3FCF6ED5C45BC189BA7E30CC2 /* CoinQPay.framework */,
+				F51D624FA78750FE214C71F33A146468 /* Frameworks */,
+				3441101140374A676F811B025370247B /* Pod */,
+				35F93B571428D85CC03A697BB293E691 /* Support Files */,
+				17333C08DFC8DD6EAE6C41D7D444A542 /* TPSDK.framework */,
+			);
+			name = "CoinQPay-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F3A3BE2248A44066358350CF932499E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DBB81DBFAA5B24F85280096D09552F /* Pods-CoinQPay-iOS_Example */,
+				B554E0AAC0442E9F25604E919AF28945 /* Pods-CoinQPay-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64D6E748685427CBD98172561B5EDB54 /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3F9838B3CB729619B195D0C037573 /* aes.h */,
+				A5984A3607D9E38D7AAA2AC597013AAC /* asn1.h */,
+				0900D9C7374DB74CB1EEACED475F3EE2 /* asn1_mac.h */,
+				3DCD17FA33AC58D37F5BF882EB437FD9 /* asn1t.h */,
+				39625992BA5054DC8B38FF84110F1E80 /* bio.h */,
+				AC579DE885AF4A3CA31793C61663A800 /* blowfish.h */,
+				CDC1A3B752082E0FA077FD1E47F954AD /* bn.h */,
+				985CADD756434A070AFEACA3F6280E9A /* buffer.h */,
+				31A8DF7928CC04CC1283264FE24666B9 /* camellia.h */,
+				EFB9B473584A23945430F5847BF052B8 /* cast.h */,
+				CA12313440150DD5A87CF9A422065745 /* cmac.h */,
+				8CC40004A8D793F7EF7390EAB7CADA49 /* cms.h */,
+				7C3D1F68D6AAE22782BB1D0C91FCA724 /* comp.h */,
+				185AA341F7B3E47FE80E77E89E5F41BA /* conf.h */,
+				448467D6605BA12FFF2CFF281D3DE227 /* conf_api.h */,
+				EDBC34E0B03010E32DF1BFFC617D3BC3 /* crypto.h */,
+				C42EF357F2B1B2C31CE1508D3BDC6961 /* des.h */,
+				0E83CC928CDCE0131DD6D783034E9E9E /* des_old.h */,
+				9BDC4768667CD4C3FEB934BD68980451 /* dh.h */,
+				9563D37E950269AF724AD4D60B7AF9E5 /* dsa.h */,
+				06BA7ECFF48F0885B24158F8D6852C43 /* dso.h */,
+				10F91A27018A7519FE78FE58DDAD5E10 /* dtls1.h */,
+				AAA396CDC3E3D259D95C24A0653075FD /* e_os2.h */,
+				50DD52BDDFDCB681A2C0029785E387F1 /* ebcdic.h */,
+				4481860CBE7F1974186C7A98A8DD5DEC /* ec.h */,
+				2353FB01A6D450A418AB5A72724877A7 /* ecdh.h */,
+				CC71E581283D1E33B8429E7C1C8C161D /* ecdsa.h */,
+				75A9CD2404A275A6F44B4D08DF2D03BB /* engine.h */,
+				EE0AB838EFE45F0AA88085B03A4A9B5A /* err.h */,
+				03905BCFA813D7586094EE845E30D37A /* evp.h */,
+				52B687EDDE2B366C9296AA37C146E02B /* hmac.h */,
+				3353B7E78EFA325ED137161A691DE21B /* idea.h */,
+				D13B475042DE46E058708005FA5EF366 /* krb5_asn.h */,
+				812C4AAA6CC8F9F159C9BCC48E0412B3 /* kssl.h */,
+				887D431AFE9C34F1B7B0D2200969F0BB /* lhash.h */,
+				65B084EA8F66B6FA246C678A760CE732 /* md4.h */,
+				F31E72A4460942593599D2A484313C9E /* md5.h */,
+				F4A11A827B427FA6FE24AC57F2BC230C /* mdc2.h */,
+				2E02B6B7FC803749EB01CF6BCA970F53 /* modes.h */,
+				11582DFE638D3BA9BBED891595BD6A21 /* obj_mac.h */,
+				330EA4E6FD1C9A46FE10F3B3A9C1C388 /* objects.h */,
+				42BC22415156C2C5408322574343F8F3 /* ocsp.h */,
+				7BD28643FE71993A8F611BEF7A9E30CD /* opensslconf.h */,
+				0C55D5A51E6823C4A3ED52694FBEA54D /* opensslv.h */,
+				3F3B81106BAB53761D388CE2199FB8D5 /* ossl_typ.h */,
+				307C67156F668E8931C5A177D3D3C512 /* pem.h */,
+				83645EF35A421CA74C20BDE099785396 /* pem2.h */,
+				2DDE80E7FAD00A4B6EDF9FB8F585DEDD /* pkcs12.h */,
+				B72EB6B8EDDB647F74CA34BFFA107C9A /* pkcs7.h */,
+				B5B0AAB8D1C0409E4F8B453F1BA331C4 /* pqueue.h */,
+				94FC9D6972A4EBF7B5818EEFF276A779 /* rand.h */,
+				D332BD952A12A0205CF2C8A91E166FBB /* rc2.h */,
+				116DF44F84B6BE987DD023BC7535A23B /* rc4.h */,
+				43D4B022C5126C09514953C6E5091FD5 /* ripemd.h */,
+				F3580790B1D6AFBE8855E5EE731457C3 /* rsa.h */,
+				E5C453D09ADD593A4AD741CDFF07473E /* safestack.h */,
+				07DAF9E6D78EE26196D611264096BC1B /* seed.h */,
+				97AACA592AE472AF92885CBE48320147 /* sha.h */,
+				1CFF03B1F390AF3DE54D4FBCDEC7737E /* srp.h */,
+				39AC0A5A9B622DB254D1610F61B4A101 /* srtp.h */,
+				C60260302B29DE221F4B201E4B4C363A /* ssl.h */,
+				048B31B7332438B744AA5D2763776130 /* ssl2.h */,
+				C1CDCD2730A47CB1DF1E426D237CE3A8 /* ssl23.h */,
+				1E6E2B5DB4A2FA3FBE6FF3EDA5309BF6 /* ssl3.h */,
+				445698724FB8C79DC121ECEF1D98924D /* stack.h */,
+				372F69EA665A2B6ABEA23A38831201E0 /* symhacks.h */,
+				68C4B7F208641B6D3C0AC7C65D0E3F50 /* tls1.h */,
+				8F1B1E5DCF0E8AD259614FCC72DDB165 /* ts.h */,
+				7208F03AAA89EC776DAEEC85EB6F359B /* txt_db.h */,
+				195EC72EE8220A72847E5FD2B6B38FF6 /* ui.h */,
+				1C9D2AC050175F57D73FDA6543B07AF1 /* ui_compat.h */,
+				C59576589CB932504F5B9D91704170C1 /* whrlpool.h */,
+				F78919DEE8567CC46D4B14E797EA5012 /* x509.h */,
+				92F754659AE4588F4FE6E089E7A100BD /* x509_vfy.h */,
+				595EC8E85E058AB06C1B07B56907B420 /* x509v3.h */,
+				C8C0C3E60955BD83E6FF78367DB3FC28 /* Frameworks */,
+				EB9C53FCD4142FC4A23F80B679B5B2B7 /* Support Files */,
+			);
+			name = "OpenSSL-Universal";
+			path = "OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		B554E0AAC0442E9F25604E919AF28945 /* Pods-CoinQPay-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AEF0EBC8C9614375F485D1B1D76A4 /* Pods-CoinQPay-iOS_Tests.modulemap */,
+				748B69053F25A439EEEC23A517E015E5 /* Pods-CoinQPay-iOS_Tests-acknowledgements.markdown */,
+				75C2D606A5CC0315675BA2EC50CA0B66 /* Pods-CoinQPay-iOS_Tests-acknowledgements.plist */,
+				23E70BB8BFFBD3CF5EBEEFE59D8BA454 /* Pods-CoinQPay-iOS_Tests-dummy.m */,
+				B3560035A8D3642DF8E213BD87E848ED /* Pods-CoinQPay-iOS_Tests-Info.plist */,
+				AB5BF698DE91E7A043F1480E802C2AC9 /* Pods-CoinQPay-iOS_Tests-umbrella.h */,
+				645A4ABCDF7AC7D6C6D32657FB78BE6E /* Pods-CoinQPay-iOS_Tests.debug.xcconfig */,
+				43C22B3F015268E96351A2515A9E0D08 /* Pods-CoinQPay-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-CoinQPay-iOS_Tests";
+			path = "Target Support Files/Pods-CoinQPay-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		B5DBB81DBFAA5B24F85280096D09552F /* Pods-CoinQPay-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2B3D674B3DB444B292BE7F54C77F3 /* Pods-CoinQPay-iOS_Example.modulemap */,
+				F74C0291A6BE3FF93AC88937CB7C3E0C /* Pods-CoinQPay-iOS_Example-acknowledgements.markdown */,
+				1C11B29F8E5A8AD563519F285E26EFC3 /* Pods-CoinQPay-iOS_Example-acknowledgements.plist */,
+				861280AF0AE785E76E3F47F78491C096 /* Pods-CoinQPay-iOS_Example-dummy.m */,
+				52631C098679CE9A3CCBBBE2C8B7B337 /* Pods-CoinQPay-iOS_Example-frameworks.sh */,
+				BAF72FEA487D24D37949FE856892B6DB /* Pods-CoinQPay-iOS_Example-Info.plist */,
+				CE1F7821B3D4F6843EB691E6C6BEB216 /* Pods-CoinQPay-iOS_Example-resources.sh */,
+				950A4D3689B69A17397E7D5047905C7D /* Pods-CoinQPay-iOS_Example-umbrella.h */,
+				0E268C46E62F8FE301D2AF256CBFBB65 /* Pods-CoinQPay-iOS_Example.debug.xcconfig */,
+				F3CDDB086246A47F99412FBE2BE7C503 /* Pods-CoinQPay-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-CoinQPay-iOS_Example";
+			path = "Target Support Files/Pods-CoinQPay-iOS_Example";
+			sourceTree = "<group>";
+		};
+		C09FE49498A42C69F30BE68720EEA0BE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D17DC00DB02496ACEDB0DD1FE1F54FD /* CoinQPay-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0A329C3FCF6ED5C45BC189BA7E30CC2 /* CoinQPay.framework */ = {
+			isa = PBXGroup;
+			children = (
+				9BA9D19C5BB80705677CAC0DA777F413 /* CoinQPayResource.bundle */,
+			);
+			name = CoinQPay.framework;
+			path = "CoinQPay-iOS/CoinQPay.framework";
+			sourceTree = "<group>";
+		};
+		C218AD3D9621F48C189DF02B1D073D16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26A58F25AE10AFCA40AB773BAD692C33 /* Masonry */,
+				64D6E748685427CBD98172561B5EDB54 /* OpenSSL-Universal */,
+				07EAFF5169CC4EF84068BB55F8B648F2 /* Protobuf */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8C0C3E60955BD83E6FF78367DB3FC28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0B37193CB36FC91CE8325C0DE8417F7 /* libcrypto.a */,
+				A3914BDF72B67629CB495CE8A7FD1149 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C09FE49498A42C69F30BE68720EEA0BE /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				C218AD3D9621F48C189DF02B1D073D16 /* Pods */,
+				0E19F3260D3153C4F9F82EF0820A42CE /* Products */,
+				5F3A3BE2248A44066358350CF932499E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D380E6120051A56DE41C3C7A6FF720E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A84FC70CF63624971FDFE0311BC96B /* Masonry.modulemap */,
+				448A152D78C7E41386CDA6AED2DF2910 /* Masonry-dummy.m */,
+				3D19025B5C28F54308AE5458B3F86EF3 /* Masonry-Info.plist */,
+				2B69BC3B02EF92EAD53BD453AFE73F1C /* Masonry-prefix.pch */,
+				A7800E458BA62457E206644ED5FEB78A /* Masonry-umbrella.h */,
+				78F21B7A3428395B1C6DD18BC5541F49 /* Masonry.debug.xcconfig */,
+				C529B07DAE73535B05361750A83E718D /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		EB9C53FCD4142FC4A23F80B679B5B2B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C530B7FB86E8E828CB0A4E8B5803B63 /* OpenSSL-Universal.debug.xcconfig */,
+				752619F5F681E5996F6CF4723A3D9F71 /* OpenSSL-Universal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		F51D624FA78750FE214C71F33A146468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FF3690A80F1717F4A3069D7D59B7880 /* CoinQPay.framework */,
+				45DD5942C9703E4A643BC8F06B42BBE4 /* TPSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		130D08C20EF80BBCE6C6683A4FE7D585 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F2322DE12F592ADEADF820B719861 /* MASCompositeConstraint.h in Headers */,
+				D45441752D9B4461499BC04B9E3243F1 /* MASConstraint.h in Headers */,
+				8CE0BE4F99BAFA8F772C2DC2FF2A69DD /* MASConstraint+Private.h in Headers */,
+				F181BF192EC10AD2F168CF07EBE4F267 /* MASConstraintMaker.h in Headers */,
+				5D25071F95D08473A06B9794A961D44E /* MASLayoutConstraint.h in Headers */,
+				A26A9C866CBD995E6EB3833220D4383B /* Masonry.h in Headers */,
+				EA25D0478EC209544FF093599BB5837C /* Masonry-umbrella.h in Headers */,
+				AEF2948E3D56D5A8DF8127EC238DFB77 /* MASUtilities.h in Headers */,
+				26C4026E46F8833731A928675A513E25 /* MASViewAttribute.h in Headers */,
+				3C2496812A039DBD8AE9322E30EDA06B /* MASViewConstraint.h in Headers */,
+				2688D3646702FD7F0618581D78A3FDA9 /* NSArray+MASAdditions.h in Headers */,
+				8448233EC9E9EBFC09F2EF34681FCD32 /* NSArray+MASShorthandAdditions.h in Headers */,
+				F169EB43002B97ED5B4D563093F8988E /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				FEBA9A13A66D706B0A87DC913C3BC738 /* View+MASAdditions.h in Headers */,
+				E90EB86ED512832BD3ECE59E5192A55D /* View+MASShorthandAdditions.h in Headers */,
+				F8ACC2A0CA092761CC1FF184705ADDEE /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7DCD1B3F5905971274DD7F7EF0B784 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC62B43B54C7DDE7EA354D22F2DDC5F /* Any.pbobjc.h in Headers */,
+				032BDF2D9087823D6B9DAB683141F146 /* Api.pbobjc.h in Headers */,
+				19BEA4A347FA071BA2D2C2E626E200B7 /* Duration.pbobjc.h in Headers */,
+				677CF768B3B57832C7F48A4928FD144F /* Empty.pbobjc.h in Headers */,
+				937C1353F4BFC57B4A4CFCC730FF75A5 /* FieldMask.pbobjc.h in Headers */,
+				9ADC7EEE8944E4D02D38AE1BC6453D33 /* GPBAny.pbobjc.h in Headers */,
+				D4961D7653B925B40510BA2B7BBE2565 /* GPBApi.pbobjc.h in Headers */,
+				FD8107139C9A45611265D7B8848F8BC8 /* GPBArray.h in Headers */,
+				324DC3022CB90DD2924453EA7A08625D /* GPBArray_PackagePrivate.h in Headers */,
+				32F160219F846BB2573F316DCAA63B42 /* GPBBootstrap.h in Headers */,
+				674996F3ED7AE9C87AB9143B57A139EA /* GPBCodedInputStream.h in Headers */,
+				81865759A7F5BA7F0BDC86F9143BDDD2 /* GPBCodedInputStream_PackagePrivate.h in Headers */,
+				FF1953EE842E3DFAD8058DE5D2E6B4B4 /* GPBCodedOutputStream.h in Headers */,
+				DB153E9E2FE3BDF99C5BA0E611D2FC1F /* GPBCodedOutputStream_PackagePrivate.h in Headers */,
+				37FCA1A6254ACF1574DB35D5BF3DFB06 /* GPBDescriptor.h in Headers */,
+				A58D428DEFD9EB286DA6DCEE0AC99379 /* GPBDescriptor_PackagePrivate.h in Headers */,
+				1E3E8D28AC5B025D78F8FAA37EC35B30 /* GPBDictionary.h in Headers */,
+				8E4D8B97363FDEEF04FCB73FA0496652 /* GPBDictionary_PackagePrivate.h in Headers */,
+				D5532F0986FE18AF61A2BDD1C955A64B /* GPBDuration.pbobjc.h in Headers */,
+				9C7DD33682E1C570E94F93F53857261A /* GPBEmpty.pbobjc.h in Headers */,
+				6C50068C99FF76E3FD282C8EE6ACF9EC /* GPBExtensionInternals.h in Headers */,
+				158907B7295DCCEF31B1CD744072EABD /* GPBExtensionRegistry.h in Headers */,
+				71AC3644B3D48AE367CA2F924352F203 /* GPBFieldMask.pbobjc.h in Headers */,
+				D5E9A59054300898EB3D8E78E894C2CE /* GPBMessage.h in Headers */,
+				545290AB2ADCAB3F2A44F0E21D2ABE6E /* GPBMessage_PackagePrivate.h in Headers */,
+				D9D7FBA9EFEB66214D43D948ADB33E61 /* GPBProtocolBuffers.h in Headers */,
+				6444A656E2F4A56514835BA3362F01F1 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */,
+				6619E8F20502A39C2FA6A2648F146B0C /* GPBRootObject.h in Headers */,
+				6563AEC69BC0C8F30E0BB68C2A60AB7C /* GPBRootObject_PackagePrivate.h in Headers */,
+				E9AE6E33E1EEB5021F80A652B46232F0 /* GPBRuntimeTypes.h in Headers */,
+				CB60C0D82A69266428EE04F7A7EADC04 /* GPBSourceContext.pbobjc.h in Headers */,
+				BF32128A0CCB3C0F76A623E262FF6A03 /* GPBStruct.pbobjc.h in Headers */,
+				84390EE201F7F321E7E50A573E7F0B7C /* GPBTimestamp.pbobjc.h in Headers */,
+				505E659961FAC348259453E8C629F6D3 /* GPBType.pbobjc.h in Headers */,
+				7E78722FE087773F79E64A7D1843C7A3 /* GPBUnknownField.h in Headers */,
+				F722CCA0AEA8E2F5C45DA30DFC1BC1B3 /* GPBUnknownField_PackagePrivate.h in Headers */,
+				15ECD706A819047D094B30809675C16A /* GPBUnknownFieldSet.h in Headers */,
+				95EFD63E290936C7547950656352B153 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */,
+				5AFBE13A572DAB20BB5268DD83B95370 /* GPBUtilities.h in Headers */,
+				CA5D3BDCBEDC86A3D704A5FEB812D07A /* GPBUtilities_PackagePrivate.h in Headers */,
+				8B585B494082964C5265EEC1F9EE3211 /* GPBWellKnownTypes.h in Headers */,
+				0DCAE146706B9343AD54B1C00013827C /* GPBWireFormat.h in Headers */,
+				588B6F652F551B902E66A4E018FEFC91 /* GPBWrappers.pbobjc.h in Headers */,
+				7DFBA80398CA247D58B9895E39BB8D5C /* Protobuf-umbrella.h in Headers */,
+				81F58A72874F3F5F049F04B5C755EAC8 /* SourceContext.pbobjc.h in Headers */,
+				B70F4FE0F24113B2D58E77935432708F /* Struct.pbobjc.h in Headers */,
+				09F8F956C2BF8815DA46E0170D13F3AC /* Timestamp.pbobjc.h in Headers */,
+				B9D6588594047B90A18C7CE899607E18 /* Type.pbobjc.h in Headers */,
+				3E4AA6D847EBEC6D1FACF2190C8D9D1B /* Wrappers.pbobjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B6A86308F1C14D5F3B60AF1C8B89E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D204202F7E141F9EC4DC28BD8E1FA2 /* Pods-CoinQPay-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6ACDD6BD7C64CEDF67BD8CE92CB175 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F48410E5DD2405BE86DA1243D102227 /* Pods-CoinQPay-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05A4D626F74B6808AFD3173BEF993639 /* Pods-CoinQPay-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAED7F077025996DCA5971274D8B2112 /* Build configuration list for PBXNativeTarget "Pods-CoinQPay-iOS_Example" */;
+			buildPhases = (
+				B5B6A86308F1C14D5F3B60AF1C8B89E9 /* Headers */,
+				F65C252C984570956AC1BFA614F54582 /* Sources */,
+				3853D4544D02D27F3F28D22EE23FCA50 /* Frameworks */,
+				84CAF5BB89901BACE1A80138CF0A6029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5150A11BE827A59D47CF04E3EAD5EC6B /* PBXTargetDependency */,
+				B9392D2C58689D37884DACFE5FE70410 /* PBXTargetDependency */,
+				226A012BEB3686A6E5EA725D12D3F3CE /* PBXTargetDependency */,
+				0D26199B1A5850048788B663783CD2E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CoinQPay-iOS_Example";
+			productName = Pods_CoinQPay_iOS_Example;
+			productReference = 9B69C67246D6D3A002F40E7D10F92671 /* Pods-CoinQPay-iOS_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		470FE31978DC918618A329D8B55C85FF /* Protobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9499CAF8075FFA1D03F17080CCD733AD /* Build configuration list for PBXNativeTarget "Protobuf" */;
+			buildPhases = (
+				8D7DCD1B3F5905971274DD7F7EF0B784 /* Headers */,
+				DB364BD4CE7E7C0862A5CDB62BED7BEF /* Sources */,
+				475402C7B4A48292111A4910E7601FDC /* Frameworks */,
+				9C2EF31F8CC5202D7FD90E3D8E29D087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protobuf;
+			productName = Protobuf;
+			productReference = C2105C94812B6214B154F54DCEDB72AC /* Protobuf */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740C0F0C945BFEC258A6513191A823B9 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				130D08C20EF80BBCE6C6683A4FE7D585 /* Headers */,
+				B49911D49B56CFAD87CB181597A3F33D /* Sources */,
+				96DB517B210D82F10E20C184F24257F9 /* Frameworks */,
+				B5F1EF367314AC1F6E62B5EE472F37E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productType = "com.apple.product-type.framework";
+		};
+		920C475684635EEA6E0B10D179D9F054 /* Pods-CoinQPay-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AEDC56526BECC7AACC842A308010D8 /* Build configuration list for PBXNativeTarget "Pods-CoinQPay-iOS_Tests" */;
+			buildPhases = (
+				CB6ACDD6BD7C64CEDF67BD8CE92CB175 /* Headers */,
+				C59604FB9A0F1E678CAA5270AA43C7EC /* Sources */,
+				F98A1B66E7923FF0FD9179B8E2378CA8 /* Frameworks */,
+				2E354DF33CD81686EE93D10101B8A6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0352C0462C796782DF8656B8C467FF1B /* PBXTargetDependency */,
+			);
+			name = "Pods-CoinQPay-iOS_Tests";
+			productName = Pods_CoinQPay_iOS_Tests;
+			productReference = AAE8AE62DDF42C4F53D84A863E6A2E6D /* Pods-CoinQPay-iOS_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0E19F3260D3153C4F9F82EF0820A42CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22EBBE5791B90D61ACB967B2E5FD6113 /* CoinQPay-iOS */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
+				05A4D626F74B6808AFD3173BEF993639 /* Pods-CoinQPay-iOS_Example */,
+				920C475684635EEA6E0B10D179D9F054 /* Pods-CoinQPay-iOS_Tests */,
+				470FE31978DC918618A329D8B55C85FF /* Protobuf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E354DF33CD81686EE93D10101B8A6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CAF5BB89901BACE1A80138CF0A6029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2EF31F8CC5202D7FD90E3D8E29D087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1EF367314AC1F6E62B5EE472F37E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B49911D49B56CFAD87CB181597A3F33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C5AB2B5432266906FF6FBC6D848696 /* MASCompositeConstraint.m in Sources */,
+				25D032904200675A3176F48132762B2A /* MASConstraint.m in Sources */,
+				9D0ACABA5315E0B6669DA5D77B3DCE9E /* MASConstraintMaker.m in Sources */,
+				B13A86AA0834D7B23A03482010A0B437 /* MASLayoutConstraint.m in Sources */,
+				6165BB5309D26B382CB59A25F5609AE9 /* Masonry-dummy.m in Sources */,
+				4B158AEF2D1675E60F128F97CAFAFB77 /* MASViewAttribute.m in Sources */,
+				BFF1F2794B4921337D845CACDAB19DE6 /* MASViewConstraint.m in Sources */,
+				2EE3B35C0795ADC216EE623A25ABEBE2 /* NSArray+MASAdditions.m in Sources */,
+				FA4896989127C912B20B34F86C8635E8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				17437A26A41AC6D42D9231F7F4E695D3 /* View+MASAdditions.m in Sources */,
+				696108C8F5E53FC5EA308B129497344D /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59604FB9A0F1E678CAA5270AA43C7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887011F3A4D02E98C5EDE5BA64F80FAB /* Pods-CoinQPay-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB364BD4CE7E7C0862A5CDB62BED7BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498E0425C82BD73BEB212E7CC5423232 /* GPBAny.pbobjc.m in Sources */,
+				2C662A18884EC0F914375D3BA0C07B85 /* GPBApi.pbobjc.m in Sources */,
+				9AA189505A9FBFCFF52E4458926A6FDF /* GPBArray.m in Sources */,
+				79A6EB0D3EBA61F4B19DE476A4F54F35 /* GPBCodedInputStream.m in Sources */,
+				0FA7EFD9D58BACE86DFAFDC6A43AB8F1 /* GPBCodedOutputStream.m in Sources */,
+				32598035F356662F4539453D248E4A6C /* GPBDescriptor.m in Sources */,
+				0B55A360FDED2679E4F2BF91E626C06C /* GPBDictionary.m in Sources */,
+				15378503C5F4C4CF5AFC32D1A7CE72DE /* GPBDuration.pbobjc.m in Sources */,
+				93B7974680C13F0149DEF7993D4B9D9B /* GPBEmpty.pbobjc.m in Sources */,
+				9A06ECBE91E2704B7250EA53F90BA9EA /* GPBExtensionInternals.m in Sources */,
+				4C68470C8BD23F410616569A2D374DD7 /* GPBExtensionRegistry.m in Sources */,
+				3C446F42F747E2062750B354AE894762 /* GPBFieldMask.pbobjc.m in Sources */,
+				AD8C6637D834379D0CFE16250C6755EA /* GPBMessage.m in Sources */,
+				43CA7DEC28F1BA07E9CE69B306939401 /* GPBRootObject.m in Sources */,
+				CDAA19AC8DE8F98D3DBD8E1095BB6620 /* GPBSourceContext.pbobjc.m in Sources */,
+				4774DEE39E155D787CBC9E93E575F735 /* GPBStruct.pbobjc.m in Sources */,
+				51B764E00CE0D33E72045E1F5F69C16F /* GPBTimestamp.pbobjc.m in Sources */,
+				F87F4A59AE75AA0B294F230A2B49C5AB /* GPBType.pbobjc.m in Sources */,
+				D39A96A4F35F374BD04FF6315E40D93F /* GPBUnknownField.m in Sources */,
+				AF1AC287FE6CB684A599EA406FE2493E /* GPBUnknownFieldSet.m in Sources */,
+				73893D489ED064ECF04193F478CFBACF /* GPBUtilities.m in Sources */,
+				EE88FC551D2411B683ABB9A55E5147C7 /* GPBWellKnownTypes.m in Sources */,
+				E7077DB38DEBB2C47B01AA5CDCA8F543 /* GPBWireFormat.m in Sources */,
+				AC69C491FEDF3C935A8BEB2C96691807 /* GPBWrappers.pbobjc.m in Sources */,
+				8B59875956CA17B7B2473CB7CD8E5CAB /* Protobuf-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65C252C984570956AC1BFA614F54582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDAB3A70C6C5BBECFDA9B4778719A0 /* Pods-CoinQPay-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0352C0462C796782DF8656B8C467FF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CoinQPay-iOS_Example";
+			target = 05A4D626F74B6808AFD3173BEF993639 /* Pods-CoinQPay-iOS_Example */;
+			targetProxy = 38C2BC220EC803F50CA6256285C3A50F /* PBXContainerItemProxy */;
+		};
+		0D26199B1A5850048788B663783CD2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Protobuf;
+			target = 470FE31978DC918618A329D8B55C85FF /* Protobuf */;
+			targetProxy = ACD6E9E6672D334DAAD1D4104FD5C7A6 /* PBXContainerItemProxy */;
+		};
+		226A012BEB3686A6E5EA725D12D3F3CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = DA7B0BEB1BEDA78DE52F1056CB1A903A /* PBXContainerItemProxy */;
+		};
+		4A603CD8B20CC9460B619B0B32475048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 8D5F1603CD564C6A09FC11B91CCDF1E1 /* PBXContainerItemProxy */;
+		};
+		5150A11BE827A59D47CF04E3EAD5EC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CoinQPay-iOS";
+			target = 22EBBE5791B90D61ACB967B2E5FD6113 /* CoinQPay-iOS */;
+			targetProxy = DD39D4EC4F55438CAA75DEB83B9C79E7 /* PBXContainerItemProxy */;
+		};
+		7EF0C694541F6D40AFF4709BE4269B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 68E6165BB0A68C80997E77778E85A6DF /* PBXContainerItemProxy */;
+		};
+		87C9158DE43148E5B9E0872F0B62C5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Protobuf;
+			target = 470FE31978DC918618A329D8B55C85FF /* Protobuf */;
+			targetProxy = 8442A77838AB2E2D4222AE0F5AA4BECB /* PBXContainerItemProxy */;
+		};
+		B9392D2C58689D37884DACFE5FE70410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 226D9C41EF8A52D9AEA18A796DB113A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04C37C7E6593370AE290816223037AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0085CACB19EA22BB5BCA4D009075FF3C /* CoinQPay-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11D060F603B6B3E4C246D98B5C1CECE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C530B7FB86E8E828CB0A4E8B5803B63 /* OpenSSL-Universal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BEC341CC1A2DB589255439A915D1259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD5AD8E48C5373B597F09829335CCDB /* Protobuf.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
+				PRODUCT_MODULE_NAME = Protobuf;
+				PRODUCT_NAME = Protobuf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		496D840360F856599620CA460882B07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645A4ABCDF7AC7D6C6D32657FB78BE6E /* Pods-CoinQPay-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinQPay-iOS_Tests/Pods-CoinQPay-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinQPay-iOS_Tests/Pods-CoinQPay-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BBCE0B5ADDFE5E8DFBB286600EE2C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F21B7A3428395B1C6DD18BC5541F49 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C39938CC093789DED4C6D052F481758C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C22B3F015268E96351A2515A9E0D08 /* Pods-CoinQPay-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinQPay-iOS_Tests/Pods-CoinQPay-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinQPay-iOS_Tests/Pods-CoinQPay-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D86EAF77F89146200ACDEB71E7761C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E268C46E62F8FE301D2AF256CBFBB65 /* Pods-CoinQPay-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9E45591D0827920CAC2990E6D9AE624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC973D0FA21BCF8CAE78AACB4DC094FB /* Protobuf.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
+				PRODUCT_MODULE_NAME = Protobuf;
+				PRODUCT_NAME = Protobuf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBF72C746360F0D072C623AC17B7ADB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752619F5F681E5996F6CF4723A3D9F71 /* OpenSSL-Universal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6A151340A6EBFD6F03A843C6857FBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C529B07DAE73535B05361750A83E718D /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F80D9272E0E91454CEAB0B4490326AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CDDB086246A47F99412FBE2BE7C503 /* Pods-CoinQPay-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinQPay-iOS_Example/Pods-CoinQPay-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8D5BF611565C2711132698CC8F4AD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE87BA0F1C920D93C940BD21702DA3AD /* CoinQPay-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07AEDC56526BECC7AACC842A308010D8 /* Build configuration list for PBXNativeTarget "Pods-CoinQPay-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496D840360F856599620CA460882B07C /* Debug */,
+				C39938CC093789DED4C6D052F481758C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6061DBCC55C2B9A7B9F93A9A64BD0C52 /* Build configuration list for PBXAggregateTarget "CoinQPay-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C37C7E6593370AE290816223037AE7 /* Debug */,
+				F8D5BF611565C2711132698CC8F4AD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740C0F0C945BFEC258A6513191A823B9 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBCE0B5ADDFE5E8DFBB286600EE2C2B /* Debug */,
+				E6A151340A6EBFD6F03A843C6857FBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9135BB41C778D853E3C92D25C47A8D8E /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D060F603B6B3E4C246D98B5C1CECE2 /* Debug */,
+				DBF72C746360F0D072C623AC17B7ADB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9499CAF8075FFA1D03F17080CCD733AD /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E45591D0827920CAC2990E6D9AE624 /* Debug */,
+				2BEC341CC1A2DB589255439A915D1259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAED7F077025996DCA5971274D8B2112 /* Build configuration list for PBXNativeTarget "Pods-CoinQPay-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86EAF77F89146200ACDEB71E7761C50 /* Debug */,
+				F80D9272E0E91454CEAB0B4490326AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

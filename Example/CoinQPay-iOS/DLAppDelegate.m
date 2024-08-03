@@ -2,20 +2,49 @@
 //  DLAppDelegate.m
 //  CoinQPay-iOS
 //
-//  Created by x-oauth-basic on 08/03/2024.
+//  Created by x-oauth-basic on 08/02/2024.
 //  Copyright (c) 2024 x-oauth-basic. All rights reserved.
 //
 
 #import "DLAppDelegate.h"
+#import <CoinQPay/CoinQPay.h>
 
 @implementation DLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [CPayApi registerAppID:@"coinqpaydemo"];
+    
+    
     return YES;
 }
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    
+    [CPayApi handleURL:url options:options result:^(TPRespObj *respObj) {
+            NSLog(@"message:%@",respObj.message);
+            NSLog(@"result:%lu",(unsigned long)respObj.result);
+            NSDictionary *json = [respObj.data copy];
+            NSLog(@"data:%@",json);
+        
+            NSString *action = json[@"action"];
+            if ([action isEqualToString:kTPSDKActionLogin]) {
+                
+                NSString * fromAddress = json[@"wallet"];
+                NSString * network = json[@"network"];
+                NSString * chainId = json[@"chainId"];
 
+                NSLog(@"fromAddress:%@\nnetwork:%@\nchainId=%@",fromAddress,network,chainId);
+                
+            }else  if ([action isEqualToString:kTPSDKActionPushTransaction]) {
+                NSLog(@"Transaction data:%@",json);
+                
+                
+                
+            }
+    }];
+    
+    return YES;
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
