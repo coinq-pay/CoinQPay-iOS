@@ -32,6 +32,17 @@ target 'TestDemo' do
 end
 
 ```
+#### Tips
+If this problem occurs during pod: **the remot end hung up unexpectedly**  
+Execute the following command:
+```
+git config --global http.postBuffer 1048576000
+```
+If this problem occurs during pod: **Unable to add a source with url 'https://github.com/CocoaPod/Specs.git' named 'cocoapods'**  
+Execute the following command:
+```
+pod install --repo-update
+```
 
 ## Build developer environment
 1. Set your **URL scheme**: Project->TARGETS->info->URL Types->Add URL scheme;
